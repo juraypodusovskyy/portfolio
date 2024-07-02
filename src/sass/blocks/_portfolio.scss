@@ -1,0 +1,44 @@
+.portfolio{
+    padding-top: 126px;
+
+    .line{
+        margin-bottom: 60px;
+    }
+
+    &__my-projects{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 5px;
+        max-width: 850px;
+    }
+
+    &__link{
+        display: block;
+        max-width: 280px;
+    }
+
+    &__link_w565{
+        max-width: 565px;
+    }
+
+    &__link_h565{
+        max-height: 565px;
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s;
+    }
+
+    &__img:hover{
+        filter: grayscale(80%);
+        transition: all 0.3s;
+    }
+}

@@ -1,0 +1,15 @@
+.line{
+    &::after{
+        content:"";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: $base_orange_color;
+        position: absolute;
+    }
+
+    &_center::after{
+        right: 50%;
+        transform: translateX(50%);
+    }
+}

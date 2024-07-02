@@ -1,0 +1,84 @@
+.experience{
+    padding-top: 147px;
+
+    &__row{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-me{
+        border-left: 2px $base_black_color solid;
+        position: relative;
+        padding-left: 43px;
+
+        &::before{
+            content:"";
+            width: 15px;
+            height: 15px;
+            top: -15px;
+            left: -8px;
+            
+        }
+
+        &__title{
+            position: absolute;
+            top: -20px;
+          
+        }
+
+        &__wrap{
+            padding-top: 45px;
+        }
+
+        &__row{
+            display: flex;
+            margin-bottom: 12px;
+            
+        }
+
+        &__icon{
+            position: relative;
+            margin-right: 20px;
+
+            img{
+                width: 19.786px;
+                height: 25px;
+                margin: 14px 0 0 18px;
+                flex-shrink: 0;
+            }
+
+            &::before {
+                top: 0px;
+            }
+
+            &::after{
+                content:"";
+                display: block;
+                width: 42px;
+                height: 1px;
+                background:$base_black_color;
+                position: absolute;
+                left: -42px;
+                top: 40%;
+            }
+        }
+        
+        &__subtitle{
+            color: $base_black_color;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        &__desc{
+            max-width: 375px;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        
+    }
+}

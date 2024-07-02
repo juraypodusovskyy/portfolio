@@ -1,0 +1,51 @@
+.skills{
+    padding-top: 120px;
+
+    &__row{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 60px;
+        row-gap: 13px;
+        column-gap: 13px;
+
+        .skill{
+           padding: 30px;
+           border: 1px solid $base_black_color;
+           width: 270px;
+           min-height: 270px;
+
+           &__icon{
+            width: 45.775px;
+            height: 65px;
+            margin-bottom: 20px;
+           }
+
+           .title{
+            margin-bottom: 15px;
+           }
+
+           &__desc{
+            color: $base_black_color;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+           }
+
+           &__icon-w161{
+            width: 161.139px;
+            height: 36.62px;
+           }
+
+           &__icon-w103{
+            width: 103.859px;
+            height: 64.813px;
+           }
+
+           &__icon-w159{
+            width: 159.816px;
+            height: 44.911px;
+           }
+        }
+    }
+}

@@ -1,0 +1,330 @@
+@media (max-width:1400px){
+    .aside-contact{
+        display: none;
+    }
+}
+
+@media (max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+    .about__content{
+        padding-left: 30px;
+    }
+    .skills__row{
+        justify-content: space-between;
+    }
+    .portfolio__wrap{
+        max-width: 565px;
+    }
+    .portfolio__link_h565{
+        max-height: none;
+    }
+    .portfolio__my-projects{
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 720px;
+    }
+    .about__row{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .about__content{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .about__skils .skill{
+        width: 300px;
+        column-gap:10px;
+    }
+    .about__skils .skill__content {
+        width:auto;
+    }
+    .experience .about-me__desc{
+        max-width: 290px;
+    }
+    .skills__row .skill {
+        padding: 10px;
+        width: 230px;
+        min-height: 250px;
+    }
+    .rectangles .rectangle {
+        width: 330px;
+    }
+    .contacts__row{
+        justify-content: center;
+    }
+    .contacts__img{
+        display: none;
+    }
+    .contacts__block{
+        max-width: 600px;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+    .menu{
+        width: 70%;
+
+        a{
+            font-size: 36px;
+        }
+    }
+    .menu__link::before {
+        width: 20px;
+        height: 20px;
+    }
+    .about__skils .skill {
+        width: 250px;
+    }
+    .experience {
+        padding-top: 60px;
+    }
+    .about {
+        padding-top: 60px;
+    }
+    .experience__row{
+        flex-direction: column;
+        row-gap: 60px;
+        align-items:center;
+    }
+    .experience .about-me__desc{
+        max-width: 90%;
+    }
+    .rectangles .rectangle {
+        width: 100%;
+    }
+    .portfolio{
+        padding-top: 70px;
+    }
+    .portfolio__my-projects{
+        flex-direction: column;
+    }
+    .portfolio__wrap{
+        column-gap:2px;
+    }
+    .portfolio__link {
+        max-width: 265px;
+    }
+    .portfolio__link_w565 {
+      max-width: 100%;
+      margin-bottom: 5px;
+    }
+    .portfolio__link_h565 {
+        max-width: 100%;
+        height: 265px;
+    }
+    .price-list__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .price-list__left{
+        width: 100%;
+    }
+    .price-list__ryght{
+        width: 100%;
+    }
+    .price-list .list {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .promo{
+
+        .title_fz48{
+            margin-top: 9px;
+            font-size: 26px;
+            line-height: 39px;
+        }
+        .title_fz16 {
+            font-size: 16px;
+        }
+
+        .promo__btns{
+            margin-top: 32px;
+        }
+    }
+    .menu {
+        width: 80%;
+
+     a {
+            font-size: 24px;
+        }
+
+        .menu__link::before {
+            width: 15px;
+            height: 15px;
+        }
+    }
+    .about {
+        padding-top: 40px;
+
+        .about__img{
+            width: 300px;
+            height: 340px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .about__content{
+            align-items:flex-start;
+            padding: 0 12px;
+        }
+        .title_fz16{
+            margin-bottom: 26px;
+        }
+        .title_fz36{
+            font-size: 22px;
+            line-height: 36px;
+            padding-bottom: 13px;
+            margin-bottom: 21.5px;
+        }
+        .about__desc {
+            font-weight: 500;
+            line-height: 21px;
+        }
+        .skill{
+            width: 260px;
+            padding-bottom: 30px;
+        }
+        .about__skils {
+            padding-top: 20px;
+            
+        }
+        
+    }
+    .experience {
+        padding-top: 10px;
+
+        .title_fz16{
+            padding-bottom: 10px;
+        } 
+
+        .title_fz36 {
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+        }
+        
+        .experience__row {
+            padding-top: 42px;
+        }
+    }
+    .skills{
+        padding-top: 40px;
+
+        .title_fz36{
+           font-size: 24px;
+           font-weight: 700;
+           line-height: 36px;
+           padding-bottom: 13px;
+           
+        } 
+
+        .skills__row {
+           flex-direction: column;
+            padding-top: 21.5px;
+            align-items:center;
+            
+        }
+        .skills__row .skill {
+            width: 270px;
+            min-height: 270px;
+            padding: 30px;
+        }
+    }
+    .rectangles{
+        padding-top: 43px;
+    }
+    .portfolio{
+        padding: 0 10px;
+        padding-top: 40px;
+
+        .title_fz36{
+            font-size: 24px;
+            padding-bottom: 13.5px;
+        }
+
+        .line {
+            margin-bottom: 41.5px;
+        }
+
+        .portfolio__link{
+            width: 280px;
+            height: 280px;
+            max-width: none;
+        }
+    }
+    .portfolio__my-projects {
+        align-items: center;
+    }
+
+    .portfolio__wrap {
+        row-gap: 20px;
+        margin-bottom: 18px;
+        justify-content: center;
+    }
+
+    .price-list{
+        padding-top: 40px;
+    }
+    .price-list__wrap {
+        padding-top: 21.5px;
+    }
+
+    .list{
+        .price-list__wrap {
+            padding: 0px 19px;
+        }
+
+        .title_fz14{
+            font-size: 12px;
+        }
+    }
+
+    .contacts {
+        padding: 20px 10px 50px 10px;
+
+        .title_fz36{        
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 36px;
+        }
+
+        .contacts-form{
+            .contacts-form__row {
+                flex-wrap: wrap;
+                row-gap: 29px;
+            }
+            .contacts-form__input {
+                width: 100%;
+            }
+         .contacts-form__btn {
+              display: block;
+              margin: 0 auto;  
+            }
+        }
+    }
+}
+

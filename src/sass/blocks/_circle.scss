@@ -1,0 +1,20 @@
+.circle{
+    &::before{
+        content:"";
+        display: block;
+        width: 36px;
+        height: 36px;
+        background: #FFA501;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        top: -5px;
+        left: 0;
+    }
+
+    &_center::before{
+        top: 50%;
+        left: -14px;
+        transform: translateY(-50%);
+    }
+}
